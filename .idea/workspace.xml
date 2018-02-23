@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4535b585-f571-4d16-af64-fd1140d21692" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,10 +14,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Alice.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Alice.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Alice.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
+            <state relative-caret-position="600">
               <caret line="1207" column="0" lean-forward="true" selection-start-line="1207" selection-start-column="0" selection-end-line="1207" selection-end-column="0" />
               <folding />
             </state>
@@ -35,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringInputStream.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StringInputStream.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/StringInputStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="294">
+              <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#280#281#0" expanded="true" />
@@ -467,14 +466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Alice.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="1207" column="0" lean-forward="true" selection-start-line="1207" selection-start-column="0" selection-end-line="1207" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/StringBufferReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-16">
@@ -505,8 +496,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/StringInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="294">
+          <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#280#281#0" expanded="true" />
@@ -514,6 +505,14 @@
             <element signature="e#1208#1209#0" expanded="true" />
             <element signature="e#1243#1244#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Alice.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="1207" column="0" lean-forward="true" selection-start-line="1207" selection-start-column="0" selection-end-line="1207" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
