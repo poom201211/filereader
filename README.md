@@ -3,10 +3,20 @@ This project is focused on writing and experimenting with a Stopwatch class I wr
 
 ## Classes
 
-*StringInputStream* - Used to read a file using InputStream(Class) into a String.
+StopWatch - Contains methods to start,stop and get elapse of time. 
 
-*StringBuilderInputStream* - Used to read a file using InputStream(Class) into a StringBuilder.
+Tasks - Super class of the classes highlighted in bold and implements interface *Runnable*.
 
-*StringBufferReader* - Used to read a file using BufferReader(Class) into a String.
+**StringInputStream** - Used to read a file using InputStream(Class) into a String.
+
+**StringBuilderInputStream** - Used to read a file using InputStream(Class) into a StringBuilder.
+
+**StringBufferReader** - Used to read a file using BufferReader(Class) into a String.
+
+## Interface
+
+Runnable - Interface that contains the method *run()*, which the task class implements.
+
+
 
 
