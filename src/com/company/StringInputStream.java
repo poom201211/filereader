@@ -5,8 +5,15 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
-public class StringInputStream {
-    public static String readFile1(String filename){
+public class StringInputStream implements Runnable {
+
+    private String filename = "";
+
+    public StringInputStream(String filename) {
+        this.filename = filename;
+    }
+
+    public String readFile1(String filename){
         // create a string for the data to read
         String data = "";
         InputStream in = null;
@@ -30,6 +37,16 @@ public class StringInputStream {
             in.close();
         }catch (IOException e){}
 
-        return data;
+        return data.replaceAll(String.format("\n"),"");
+    }
+    @Override
+    public void run(){
+        readFile1(filename);
+    }
+
+    public String toString(){
+        int chars = readFile1(filename).length();
+        String front = String.format("Reading Alice-in-Wonderland.txt using FileReader, append to String %s characters in ",chars);
+        return front;
     }
 }

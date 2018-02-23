@@ -32,4 +32,9 @@ public class Stopwatch {
         else return (stopTime - startTime)*NANSECOND;
     }
 
+    public void reset(){
+        startTime = 0;
+        stopTime = 0;
+    }
+
 }
